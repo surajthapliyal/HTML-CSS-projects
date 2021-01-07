@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="GET" class="form">
+        <div>
+        <p id="top">Contact Form <br>
+        Please fill in all the text in the field.</p>
+        </div>
+        <div id="container">
+            <p>Your Name : *<input type="text" name="name" placeholder="Enter your name here" required></p>
+            <p>Your Email : *<input type="text" name="email" placeholder="Abc@gmail.com" required></p>
+            <p>Message : *<textarea name="message" cols="30" rows="10" placeholder="Enter your message here." required></textarea></p>
+            <p>Subject : *<input type="text" name="subject" placeholder="Type here" required></p>
+            <input type="submit" name="submit" value="SEND" >
+            <input type="reset" name="reset" value="RESET">
+        </div>
+    </form>
+</body>
+</html>
